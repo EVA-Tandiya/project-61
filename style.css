@@ -1,0 +1,38 @@
+img{
+    width:200px;
+    border-radius:200px;
+    border-color:#407a9c;
+    border-style:dashed;
+    border-width:5px;
+    width: 50px;
+    height: 50px;
+  }
+  body {
+      background: linear-gradient( #0b0742, #120c6e, #5e72eb, #ff9190, #fdc094);
+  }
+  h1{
+    text-shadow:2px 2px #3c1053ff;
+    font-size:20px;
+  }
+  #bio{
+    padding:20px;
+    font-size:18;
+    color:#f6d55c;
+  }
+  .menu{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color:black;
+  }
+
+#img1, #img2{
+    width: 50px;
+    height: 50px;
+}
+#img1:hover,#img2:hover{
+    transform: scale(0.9);
+}
